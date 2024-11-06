@@ -1,0 +1,8 @@
+init 1 _ R one
+init 0 _ R zero
+one 0 1 R zero
+one 1 1 R one
+zero 0 0 R zero
+zero 1 0 R one
+zero _ _ * halt
+one _ _ * halt

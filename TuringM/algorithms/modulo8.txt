@@ -1,0 +1,12 @@
+init 1 1 R init
+init 0 0 R init
+init _ _ L edge_found
+edge_found 1 1 L one 
+edge_found 0 0 L one 
+one 1 1 L two
+one 0 0 L two
+two 1 1 L three
+two 0 0 L three
+three 0 0 L three
+three 1 0 L three
+three _ _ * halt
